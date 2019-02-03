@@ -1,4 +1,14 @@
 # Cornado 
+
+## Tech Stack
++    Python 
++    Tensorflow (Poets Framework)
++    Objective-C
++    Website
+     + HTML
+     + CSS
+     + Javascript
+
 ## check your corn for diseases!
 Cornado is the app for checking if your corn is disease ridden. Scout for diseases better and quicker for early prevention and effective management. Currently Cornado can detect the following diseases: 
  
@@ -22,3 +32,6 @@ None detected so far!
 Coming soon to a farm near you.
 ## table number for submission
 TABLE: 6
+
+Sources (and Instructions):
+https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0. 
