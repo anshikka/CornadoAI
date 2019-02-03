@@ -1,0 +1,319 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:sans-serif;
+}
+
+.btn{
+  border:0px solid transparent; /* this was 1px earlier */
+ }
+
+.blue-back {
+  background-color: #2CA5E4;
+  width: 100%;
+  height: 600px;
+}
+
+/* HEADER AREA */
+
+header {
+  margin-top: 1em;
+  color:white;
+}
+
+.hiring-text {
+  font-size: 10px;
+  color:lightgrey;
+}
+
+.hiring-text:hover {
+  text-decoration: underline;
+  color: #FEFFFF;
+  cursor:pointer;
+}
+
+.get-started {
+  display: inline;
+  float: right;
+}
+
+.get-started-login {
+  background-color: #2CA5E4;
+  border: none;
+  color: white;
+  font-size: 13px;
+  padding: .5em;
+  border-radius: 3%;
+}
+
+.get-started-free {
+  background-color: #2CA5E4;
+  color:white;
+  font-size: 13px;
+  border: solid white;
+  border-width: thin;
+  padding: .5em;
+  border-radius: 3%;
+}
+
+.get-started-login:hover {
+  background-color: white;
+  color: #2CA5E4;
+  cursor: pointer;
+}
+
+.get-started-free:hover {
+  background-color: white;
+  color: #2CA5E4;
+  cursor: pointer;
+}
+
+/* FIRST MAIN TEXT CONTENT AREA */
+
+.title-container {
+  text-align:center;
+}
+
+.title-task-text {
+  margin-top: 2em;
+  text-align:center;
+  color: white;
+}
+
+.title-automation-text {
+  text-align:center;
+  color:white;
+  font-weight: bold;
+}
+
+.title-description-text {
+  text-align:center;
+  margin-top: 2em;
+  color:white;
+  margin-left: 15%;
+  margin-right: 5%;
+  margin-bottom: 3.5em;
+}
+
+.title-email-field {
+  border: solid lightgrey;
+  border-width: thin;
+  height: 2.5em;
+  color:white;
+  border-radius: 3%;
+}
+
+.aligned {
+  text-align:center;
+}
+
+.title-get-started-button {
+  height: 2.5em;
+  border: solid white;
+  border-width: thin;
+  padding: .5em;
+  padding-right: 1em;
+  padding-left: 1em;
+  color: white;
+  background-color: #2CA5E4;
+  border-radius: 3%;
+}
+
+.title-get-started-button:hover {
+  background-color: white;
+  color:  #2CA5E4;
+  cursor: pointer;
+}
+
+.credit-card-text {
+  font-size: 12px;
+  color:white;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-left: .3em;
+}
+
+.title-watch-video-text {
+  font-size: 13px;
+  color:white;
+  display:inline-block;
+  text-align:center;
+}
+
+.watch-video-container {
+  margin-top: 1em;
+  text-align:center;
+}
+
+.title-play-icon {
+  color: white;
+  display:inline-flex;
+  align-content: center;
+  vertical-align: middle;
+  margin-right: 5em;
+  margin-left: 1em;
+  font-size: 8px;
+}
+
+.watch-video-container:hover {
+  cursor: pointer;
+	text-shadow: 0px 0px 10px rgba(255,255,100,1);
+}
+
+/* WORK FLOW SECTION */
+
+.work-flow-container {
+  margin-top: 5em;
+  text-align:center;
+}
+
+.process-text {
+  text-align:center;
+  font-size: 14px;
+}
+
+/* HOW IT HELPS YOU IMPROVE SECTION */
+
+.improve-text-container {
+  margin-top: 9em;
+  text-align:center;
+}
+
+.client-onboard-container img {
+    margin-left: 33%;
+    margin-top: 3em;
+}
+
+.lightbulb-icon {
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+/* Line Styling */
+
+.blue-line {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  background-color: #2CA5E4;
+  height: 1px;
+  width: 90px;
+}
+
+.red-line {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  background-color: red;
+  height: 1px;
+  width: 90px;
+}
+
+.green-line {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  background-color: green;
+  height: 1px;
+  width: 90px;
+}
+
+.procedure-subtext {
+  font-size: 12px;
+  color:grey;
+}
+
+.explore-features-container {
+  margin-top: 3.5em;
+  text-align:center;
+}
+
+.explore-features-button {
+  color: #2CA5E4;
+  background-color:white;
+  border: solid #2CA5E4;
+  border-width: thin;
+  padding: .75em;
+  font-size: 12px;
+  border-radius: 3%;
+}
+
+.explore-features-button:hover {
+  background-color: #2CA5E4;
+  color: white;
+  cursor: pointer;
+}
+
+/* TESTIMONIAL SLIDESHOW */
+
+.arrow-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.arrow-container:hover {
+  cursor:pointer;
+  color:grey;
+}
+
+.slideshow-container {
+  margin: 5em 0 5em 0;
+}
+
+.slider {
+  display:none;
+  border: solid grey;
+  border-width: thin;
+  border-radius: 1%;
+  padding: 2em 1em 2em 1em;
+}
+
+.initial-slide {
+  display:block;
+}
+
+.testimonial-text {
+  font-style:italic;
+  font-size: 13px;
+  padding: 0 0 1em 0;
+}
+
+.testimonial-pic {
+  border-radius: 50%;
+  height: 50px;
+  width: 75px;
+}
+
+.testimonial-name {
+  font-size: 18px;
+  width: 50px;
+}
+
+.testimonial-company {
+  color: grey;
+  font-size: 14px;
+}
+
+/* TRUSTED COMPANIES CONTAINER */
+
+.trusted-companies-container {
+  text-align:center;
+  color:#403e3e;
+  margin: 2em 0 6em 0;
+}
+
+.trusted-companies {
+  margin-bottom: .5em;
+}
+
+/* SIGNUP BANNER SECTION */
+
+.signup-banner {
+  background-color: #2CA5E4;
+  text-align:center;
+}
+
+.signup-banner-text-container {
+  color:white;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
