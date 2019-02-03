@@ -16,3 +16,6 @@ Cornado is the app for checking if your corn is disease ridden. Scout for diseas
 ## Training additional data 
 ## Issues
 ## Additional features
+
+## table number for submission
+TABLE: 6
